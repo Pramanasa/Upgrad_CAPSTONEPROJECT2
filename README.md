@@ -2,15 +2,21 @@ How to deploy nodejs application on kubernetes.
 
 Step1 : Creating Node.js application
 
-Install npm package: 
+Install npm package:
+
 $ sudo  apt-get update  
 $ sudo apt install npm
+
 Initialize a Node.js project (using npm):   
 $ npm init
-Create a Simple REST API: Install Express.js: npm install express
+
+Create a Simple REST API: 
+Install Express.js: npm install express
+
 create a Server.js file: vim server.js 
 run node.js application: node server.js
-You will get output as Hello world to check that use command curl localhost:8080/devops
+You will get output as Hello world to check that use command:
+curl localhost:8080/devops
 
 Step2 : Installing Docker, create file and image
 
