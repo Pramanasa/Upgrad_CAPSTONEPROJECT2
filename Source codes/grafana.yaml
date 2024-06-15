@@ -1,0 +1,16 @@
+persistence:
+  type: pvc
+  enabled: true
+  # storageClassName: default
+  accessModes:
+    - ReadWriteOnce
+  size: 10Gi
+adminUser: admin
+adminPassword: strongpassword
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 5
+service:
+  enabled: true
+  type: LoadBalancer
